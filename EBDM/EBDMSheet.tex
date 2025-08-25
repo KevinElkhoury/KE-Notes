@@ -74,7 +74,8 @@
      \Large{\textbf{EBDM}} \\
 \end{center}
 
-\section{Definitions}
+\section{Diagnostic Efficacy}
+\subsection{Definitions}
 \textbf{Evidence Based Decision Making:} Clinical decisions by integrating the best available research evidence \newline
 \textbf{Epidemiology:} The study of the distribution and determinants of heath and disease in populations \newline
 \textbf{Biostatistics:} The application of statistical methods to biological health and medical data \newline
@@ -96,7 +97,13 @@ Tertiary & Reduce impact of an established disease & Rehabilitation, physical th
 \end{tabular}
 \newline
 
-\section{Core Measures}
+\subsubsection{Scales}
+\begin{itemize}
+\item Nominal Data: Categorical Data with no order
+\item Ordinal Data: Categorical Data but with a ranked order
+\item Interval Data: Numeric Data with equal intervals
+\end{itemize}
+
 \subsubsection{Prevalence}
 \text{Point} = $\frac{\text{Existing cases at a specific time}}{\text{Population at that time}}$ \newline
 \text{Period} = $\frac{\text{Existing cases during a period}}{\text{Population during that period}}$ \newline
@@ -104,7 +111,13 @@ Tertiary & Reduce impact of an established disease & Rehabilitation, physical th
 \text{Cumulative} = $\frac{\text{New cases in a time period}}{\text{Population at risk at start of period}}$ \newline
 \text{Density} = $ \frac{\text{New cases}}{\sum \text{(time each person is at risk)}}$ \newline
 
-\section{Equations}
+\subsubsection{Thresholds}
+\textbf{Diagnostic Threshold: }Cut-off value of a test result that distinguishes between a positive and negative test \newline
+\textbf{Treatment Threshold: } Above this probability disease is likely enough to initiate treatment without testing \newline
+\textbf{Testing Threshold: } Below this probability disease is so unlikely further testing is not needed \newline
+
+
+\section{Core Measures}
 \noindent\(\displaystyle
 \text{Prevalence} =
 \frac{\text{\# subjects with disease}}
@@ -161,10 +174,9 @@ Interpretation: False-negative probability. \newline
 \textbf{Parallel:} Tests done simultaneously; paired with SNout \newline
 
 \subsubsection{Likelihood Ratio}
-\textbf{Positive Likelihood Ratio (LR+)} \newline 
-\(\displaystyle PPV = P(\text{Disease} \mid \text{Positive Test}) = \frac{TP}{TP + FP}\) \newline
-Effect of Prevalence: Increases with higher prevalence. \newline
-Effect of Threshold: Raising threshold increases specificity, reduces FP, increases PPV. \newline
+\textbf{Positive Likelihood Ratio (LR+): } How much more likely a positive test is in a pt with the disease compared to a pt without the disease \newline 
+\(\displaystyle LR+ = \frac{\text{Sensitiviy}}{{/text{1-Specificity}}\) \newline
+
 
 \textbf{Negative Predictive Value (NPV)} \newline
 \(\displaystyle NPV = P(\text{Healthy} \mid \text{Negative Test}) = \frac{TN}{TN + FN}\) \newline

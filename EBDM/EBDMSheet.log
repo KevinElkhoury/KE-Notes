@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.14)  25 AUG 2025 00:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.15)  25 AUG 2025 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **EBDMSheet.tex
 (./EBDMSheet.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
+L3 programming layer <2025-08-13>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (c:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
@@ -292,14 +292,14 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfrcs 2025-08-14 v3.1.11 (3.1.11)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+Package: pgf 2025-08-14 v3.1.11 (3.1.11)
 
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfsys 2025-08-14 v3.1.11 (3.1.11)
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks31
@@ -330,23 +330,23 @@ de.tex
 \t@pgf@tokc=\toks36
 \pgf@sys@id@count=\count324
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+File: pgf.cfg 2025-08-14 v3.1.11 (3.1.11)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsys-pdftex.def 2025-08-14 v3.1.11 (3.1.11)
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsys-common-pdf.def 2025-08-14 v3.1.11 (3.1.11)
 )))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsyssoftpath.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfsyssoftpath@smallbuffer@items=\count325
 \pgfsyssoftpath@bigbuffer@items=\count326
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsysprotocol.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )) (c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
@@ -368,7 +368,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfcore 2025-08-14 v3.1.11 (3.1.11)
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
@@ -403,7 +403,7 @@ etics.code.tex)
 ))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorepoints.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@picminx=\dimen198
 \pgf@picmaxx=\dimen199
 \pgf@picminy=\dimen256
@@ -421,18 +421,18 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorepathconstruct.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@path@lastx=\dimen268
 \pgf@path@lasty=\dimen269
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorepathusage.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@shorten@end@additional=\dimen270
 \pgf@shorten@start@additional=\dimen271
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorescopes.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfpic=\box105
 \pgf@hbox=\box106
 \pgf@layerbox@main=\box107
@@ -440,88 +440,88 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoregraphicstate.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgflinewidth=\dimen272
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoretransformations.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@pt@x=\dimen273
 \pgf@pt@y=\dimen274
 \pgf@pt@temp=\dimen275
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorequick.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoreobjects.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
 de.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorepathprocessing.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorearrows.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfarrowsep=\dimen276
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoreshade.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@max=\dimen277
 \pgf@sys@shading@range@num=\count330
 \pgf@shadingcount=\count331
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoreimage.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoreexternal.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfexternal@startupbox=\box108
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorelayers.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
 .tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoretransparency.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorepatterns.code.tex 2025-08-14 v3.1.11 (3.1.11)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorerdf.code.tex 2025-08-14 v3.1.11 (3.1.11)
 ))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
 x
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfmoduleshapes.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfnodeparttextbox=\box109
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfmoduleplot.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfcomp-version-0-65 2025-08-14 v3.1.11 (3.1.11)
 \pgf@nodesepstart=\dimen278
 \pgf@nodesepend=\dimen279
 )
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfcomp-version-1-18 2025-08-14 v3.1.11 (3.1.11)
 )) (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (c:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+Package: pgffor 2025-08-14 v3.1.11 (3.1.11)
 \pgffor@iter=\dimen280
 \pgffor@skip=\dimen281
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+Package: tikz 2025-08-14 v3.1.11 (3.1.11)
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgflibraryplothandlers.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@plot@mark@count=\count332
 \pgfplotmarksize=\dimen282
 )
@@ -543,7 +543,7 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@fig@count=\count336
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfmodulematrix.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfmatrixcurrentrow=\count337
 \pgfmatrixcurrentcolumn=\count338
 \pgf@matrix@numberofcolumns=\count339
@@ -552,23 +552,23 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: tikzlibrarytopaths.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )))
 (c:/texlive/2025/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: tikzlibrarycalc.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brary3d.code.tex
-File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: tikzlibrary3d.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 braryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: tikzlibraryarrows.code.tex 2025-08-14 v3.1.11 (3.1.11)
 
 (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgflibraryarrows.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \arrowsize=\dimen291
 ))) (c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
@@ -686,65 +686,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
 
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
 
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+))
+Runaway argument?
+{{/text{1-Specificity}}\) \newline \par \par \textbf {Negative Predic\ETC.
+! File ended while scanning use of \frac .
+<inserted text> 
+                \par 
+<*> EBDMSheet.tex
+                 
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
+! Emergency stop.
+<*> EBDMSheet.tex
+                 
+*** (job aborted, no legal \end found)
 
-
-
-
-
-
-[1
-
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-
-
-
-
-
-
-
-
-[2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-(./EBDMSheet.aux)
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
- ***********
- ) 
+ 
 Here is how much of TeX's memory you used:
- 15144 strings out of 467801
- 300914 string characters out of 5436089
- 702487 words of memory out of 5000000
- 43502 multiletter control sequences out of 15000+600000
+ 15130 strings out of 467800
+ 300589 string characters out of 5436061
+ 688606 words of memory out of 5000000
+ 43494 multiletter control sequences out of 15000+600000
  634317 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,91p,414b,317s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2025/
-texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2025/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/t
-exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on EBDMSheet.pdf (2 pages, 139008 bytes).
-PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 84i,8n,91p,414b,281s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
