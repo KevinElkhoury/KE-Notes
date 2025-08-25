@@ -5,4 +5,4 @@ If you have any suggestions, need help, or are interested in contributing, pleas
 
 # Sections
 
-- [EBDM: File](notes/EBDM/file.md)
+- [EBDM: File](EBDM/EBDMSheet.pdf)
