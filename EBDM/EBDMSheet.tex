@@ -1,0 +1,232 @@
+\documentclass[10pt,landscape]{article}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage[landscape]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{color,graphicx,overpic}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+
+\usepackage{array}    % for \newcolumntype
+\usepackage{float}    % for [H]
+\usepackage{booktabs} % for \toprule, \midrule, \bottomrule
+
+
+
+\pdfinfo{
+  /Title (EBDM.pdf)
+  /Creator (TeX)
+  /Producer (pdfTeX 1.40.0)
+  /Author (Kevin)
+  /Subject (EBDM Cheat Sheet)
+  /Keywords (EBDM, tex, latex)}
+
+\geometry{top=.5in,left=.5in,right=.5in,bottom=.5in}
+
+% Turn off header and footer
+\pagestyle{empty}
+
+% Redefine section commands to use less space
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\textit}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\underline}}
+\makeatother
+
+\renewcommand{\baselinestretch}{1.5}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+
+%My Environments
+\newtheorem{example}[section]{Example}
+% -----------------------------------------------------------------------
+
+\begin{document}
+\raggedright
+\footnotesize
+\begin{multicols}{3}
+
+
+% multicol parameters
+% These lengths are set only within the two main columns
+%\setlength{\columnseprule}{0.25pt}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\begin{center}
+     \Large{\textbf{EBDM}} \\
+\end{center}
+
+\section{Definitions}
+\textbf{Evidence Based Decision Making:} Clinical decisions by integrating the best available research evidence \newline
+\textbf{Epidemiology:} The study of the distribution and determinants of heath and disease in populations \newline
+\textbf{Biostatistics:} The application of statistical methods to biological health and medical data \newline
+\textbf{Diagnostic Efficacy:} The accuracy and usefulness of a diagnostic test \newline
+\textbf{Risk:} Probability of developing the diseases over a specific time period \newline
+
+\subsubsection{Levels of Prevention}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\noindent \begin{tabular}[H]{|P{1.4cm}|P{2.6cm}|P{2.5cm}|}
+\hline
+\textbf{Level} & \textbf{Definition} & \textbf{Example}\\
+\hline
+Primary & Prevent disease before it occurs & Vaccinations, lifestyle counseling \\
+\hline
+Secondary & Detect disease early to halt or slow it & Pap smear, mammogram \\
+\hline
+Tertiary & Reduce impact of an established disease & Rehabilitation, physical therapy, chronic disease management \\
+\hline
+\end{tabular}
+\newline
+
+\section{Core Measures}
+\subsubsection{Prevalence}
+\text{Point} = $\frac{\text{Existing cases at a specific time}}{\text{Population at that time}}$ \newline
+\text{Period} = $\frac{\text{Existing cases during a period}}{\text{Population during that period}}$ \newline
+\subsubsection{Incidence Rate}
+\text{Cumulative} = $\frac{\text{New cases in a time period}}{\text{Population at risk at start of period}}$ \newline
+\text{Density} = $ \frac{\text{New cases}}{\sum \text{(time each person is at risk)}}$ \newline
+
+\section{Equations}
+\noindent\(\displaystyle
+\text{Prevalence} =
+\frac{\text{\# subjects with disease}}
+     {\text{\# subjects who could have disease}}
+\)\newline
+
+\noindent\(\displaystyle
+\text{Accuracy} =
+\frac{TP + TN}{TP + TN + FP + FN}
+\) \newline
+
+\noindent\(\displaystyle
+\text{Sensitivity} =
+\frac{TP}{TP + FN}
+= P(\text{Positive Test} \mid \text{Disease})
+\)\newline
+
+\noindent\(\displaystyle
+\text{Specificity} =
+\frac{TN}{TN + FP}
+= P(\text{Negative Test} \mid \text{Healthy})
+\)\newline
+
+\noindent\(\displaystyle
+\text{False Negative Rate} = 1 - \text{Sensitivity}
+\)\newline
+
+\noindent\(\displaystyle
+\text{False Positive Rate} = 1 - \text{Specificity}
+\)\newline
+
+\subsubsection{Predictive Values}
+\textbf{Positive Predictive Value (PPV)} \newline 
+\(\displaystyle PPV = P(\text{Disease} \mid \text{Positive Test}) = \frac{TP}{TP + FP}\) \newline
+Effect of Prevalence: Increases with higher prevalence. \newline
+Effect of Threshold: Raising threshold increases specificity, reduces FP, increases PPV. \newline
+
+\textbf{Negative Predictive Value (NPV)} \newline
+\(\displaystyle NPV = P(\text{Healthy} \mid \text{Negative Test}) = \frac{TN}{TN + FN}\) \newline
+Effect of Prevalence: Decreases with higher prevalence. \newline
+Effect of Threshold: Lowering threshold increases sensitivity, reduces FN, increases NPV. \newline
+
+\textbf{1 - NPV} \newline
+\(\displaystyle 1 - NPV = P(\text{Disease} \mid \text{Negative Test}) = \frac{FN}{TN + FN}\) \newline
+Interpretation: False-negative probability. \newline
+
+\subsection{Testing Methods}
+\subsubsection{SPin vs SNout}
+\textbf{SPin:} Specific test to rule in disease \newline
+\textbf{SNout:} Sensitive test to rule out disease \newline
+
+\subsubsection{Parallel vs Serial}
+\textbf{Serial:} Tests done one after another; paired with SPin \newline
+\textbf{Parallel:} Tests done simultaneously; paired with SNout \newline
+
+\subsubsection{Likelihood Ratio}
+\textbf{Positive Likelihood Ratio (LR+)} \newline 
+\(\displaystyle PPV = P(\text{Disease} \mid \text{Positive Test}) = \frac{TP}{TP + FP}\) \newline
+Effect of Prevalence: Increases with higher prevalence. \newline
+Effect of Threshold: Raising threshold increases specificity, reduces FP, increases PPV. \newline
+
+\textbf{Negative Predictive Value (NPV)} \newline
+\(\displaystyle NPV = P(\text{Healthy} \mid \text{Negative Test}) = \frac{TN}{TN + FN}\) \newline
+Effect of Prevalence: Decreases with higher prevalence. \newline
+Effect of Threshold: Lowering threshold increases sensitivity, reduces FN, increases NPV. \newline
+
+\section{Odds and Risks}
+\textbf{Risk Ratio:} \(\displaystyle \frac{\text{P(Getting Disease} \mid \text{Exposure)}}{\text{P(Getting Disease} \mid \text{No Exposure)}}\) \newline 
+
+\textbf{Odds Ratio:} \(\displaystyle \frac{\text{Odds of (Getting Disease} \mid \text{Exposure)}}{\text{Odds of (Getting Disease} \mid \text{No Exposure)}}\) \newline 
+
+\textbf{Attributable Risk: }\(\displaystyle \text{Risk of (Getting Disease} \mid \text{Exposure)} - \text{Risk of (Getting Disease} \mid \text{No Exposure)}\) \newline
+
+\textbf{Attributable Risk Reduction: }\(\displaystyle \text{Risk of (Getting Disease} \mid \text{Control)} - \text{Risk of (Getting Disease} \mid \text{Treatment)}\) \newline
+
+\textbf{Attributable Risk Proportion: }\(
+\displaystyle \frac{R_{\text{exposed}} - R_{\text{unexposed}}}{R_{\text{exposed}}}
+\) \newline
+
+\textbf{Number Needed to Treat/Harm: }\(
+\displaystyle \frac{1}{\text{AR(R)}} \) \newline
+
+\subsection{Rates}
+\textbf{Case Fatality Rate: }\(
+\displaystyle \frac{R_{\text{exposed}} - R_{\text{unexposed}}}{R_{\text{exposed}}}
+\) \newline
+
+\textbf{Disease Morbidity Rate: }\(
+\displaystyle \frac{R_{\text{exposed}} - R_{\text{unexposed}}}{R_{\text{exposed}}}
+\) \newline
+
+NNS PSR
+Historical Study
+
+
+
+\section{Validity}
+\subsection{Sampling}
+\textbf{Population:} Group of people you are interested in studying \newline
+\textbf{Sample:} Subset of the population to collect data from \newline
+\textbf{Sample Frame:} List or database the sample is taken from \newline
+
+\subsubsection{Sampling Factors}
+\textbf{Procedure:} How the sample was selected \newline
+\textbf{Size:} The size of the sample \newline
+\textbf{Participation Rate: } How many people of the sample participated \newline
+
+\subsection{Validity}
+\textbf{External Validity: } The degree to which your study as being generalized to other situations, peoples, and settings \newline
+\textbf{Internal Validity: }The degree to which your study shows a true cause and effect relationship \newline
+\textbf{Population Validity: } The degree your sample can be generalized to a larger population \newline
+\textbf{Ecological Validity: }The degree you study can be generalized to real-world settings \newline
+
+\section{Statistical Significance}
+
+
+\end{multicols}
+\end{document}\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\begin{document}
+•
+\end{document}
